@@ -1,12 +1,18 @@
 import Providers from '@/components/Providers/Providers';
 import type { Metadata } from 'next';
-import { Roboto } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 
-const roboto = Roboto({ weight: '400', subsets: ['cyrillic'] });
+const poppins = Poppins({
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
-  title: 'Novo Projeto',
-  description: 'Novo Projeto',
+  title: 'Teste Econverse - E-commerce',
+  description: 'Teste Front-End Econverse',
+  icons: {
+    icon: '/logo/logo.svg',
+  },
 };
 
 const RootLayout = ({
@@ -15,8 +21,8 @@ const RootLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <html lang="pt">
-      <body className={roboto.className}>
+    <html lang="pt-BR">
+      <body className={poppins.className}>
         <Providers>{children}</Providers>
       </body>
     </html>
