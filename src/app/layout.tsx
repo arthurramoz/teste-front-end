@@ -20,8 +20,36 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Teste Econverse - E-commerce',
-  description: 'Teste Front-End Econverse',
+  title: 'Econverse | E-commerce de Tecnologia - Smartphones, Notebooks e Acessórios',
+  description:
+    'Encontre os melhores produtos de tecnologia com até 50% de desconto. Smartphones, notebooks, acessórios e muito mais. Frete grátis e parcelamento em até 12x.',
+  keywords: [
+    'e-commerce',
+    'tecnologia',
+    'smartphones',
+    'notebooks',
+    'acessórios',
+    'promoções',
+    'econverse',
+    'loja online',
+  ],
+  authors: [{ name: 'Arthur Ramos' }],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  openGraph: {
+    title: 'Econverse | E-commerce de Tecnologia',
+    description:
+      'Encontre os melhores produtos de tecnologia com até 50% de desconto.',
+    type: 'website',
+    locale: 'pt_BR',
+    siteName: 'Econverse',
+  },
   icons: {
     icon: '/logo/logo.svg',
   },
