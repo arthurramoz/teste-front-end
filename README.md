@@ -4,6 +4,8 @@ Projeto desenvolvido como teste técnico para a vaga de **Desenvolvedor Front-En
 
 A aplicação é uma landing page de e-commerce construída com **React**, **TypeScript** e **Next.js**, seguindo fielmente o layout do Figma proposto.
 
+### 🌐 [Demo ao Vivo (Vercel)](https://teste-front-end-livid.vercel.app/)
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
